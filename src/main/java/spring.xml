@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean name="A" class="com.linyu.springioc.bean.A">
+		<property name="name" value="tom"></property>
+	</bean>
+	
+	<bean name="B" class="com.linyu.springioc.bean.B">
+		<property name="a" ref="A"></property>
+	</bean>
+</beans>
